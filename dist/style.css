@@ -3,6 +3,9 @@
 }
 * {
     margin: 0;
+    font-family: 'Nunito', sans-serif;
+    font-weight: normal;
+    font-style: normal;
   }
 
 body{
@@ -25,7 +28,7 @@ form{
 .container{
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
     align-items: center;
 }
 i{
@@ -37,4 +40,24 @@ i{
 .icon-search{
     display: flex;
     gap:20px
+}
+#city-name{
+    font-size: 5rem;
+    color: antiquewhite;
+}
+#current-weather{
+    font-size: 4.5rem;
+    text-align: center;
+}
+
+#humidity{
+   margin-left: -10px;
+    
+}
+#feels-like,#humidity{
+    font-family: 'SeanSansCondensedMedium';
+    font-weight: normal;
+    font-style: normal;
+    text-align: center;
+    color: gray;
 }
